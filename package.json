@@ -1,0 +1,27 @@
+{
+  "name": "coding-test-freshplanet",
+  "version": "1.0.0",
+  "description": "FlashPlanet backend coding test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ivaylo Panitchkov",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "apollo-server-express": "^2.9.16",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "nodemon": "^2.0.2"
+  }
+}

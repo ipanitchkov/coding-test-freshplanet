@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John",
+      "pictureUrl": "http://somesite.com/pictureJohn.png",
+      "joinedForums": [{ "id": "1" }, { "id": "2" }, { "id": "3" }]
+    },
+    {
+      "id": "2",
+      "name": "Scott",
+      "pictureUrl": "http://somesite.com/pictureScott.png",
+      "joinedForums": [{ "id": "1" }, { "id": "2" }, { "id": "4" }]
+    },
+    {
+      "id": "3",
+      "name": "Harry",
+      "pictureUrl": "http://somesite.com/pictureHarry.png",
+      "joinedForums": [{ "id": "1" }, { "id": "3" }, { "id": "4" }]
+    }
+  ],
+  "forums": [
+    {
+      "id": "1",
+      "messages": [{ "id": "1" }, { "id": "2" }, { "id": "3" }, { "id": "4" }, { "id": "5" }],
+      "members": [{ "id": "1" }, { "id": "2" }, { "id": "3" }]
+    },
+    {
+      "id": "2",
+      "messages": [{ "id": "6" }],
+      "members": [{ "id": "1" }, { "id": "2" }]
+    },
+    {
+      "id": "3",
+      "messages": [],
+      "members": [{ "id": "1" }, { "id": "3" }]
+    },
+    {
+      "id": "4",
+      "messages": [],
+      "members": [{ "id": "2" }, { "id": "3" }]
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "timestamp": 1000,
+      "creator": { "id": "1" },
+      "text": "This is a test message 1"
+    },
+    {
+      "id": "2",
+      "timestamp": 1010,
+      "creator": { "id": "2" },
+      "text": "This is a test message 2"
+    },
+    {
+      "id": "3",
+      "timestamp": 1020,
+      "creator": { "id": "1" },
+      "text": "This is a test message 3"
+    },
+    {
+      "id": "4",
+      "timestamp": 1030,
+      "creator": { "id": "2" },
+      "text": "This is a test message 4"
+    }, 
+    {
+      "id": "5",
+      "timestamp": 1040,
+      "creator": { "id": "3" },
+      "text": "This is a test message 5"
+    },
+    {
+      "id": "6",
+      "timestamp": 1050,
+      "creator": { "id": "1" },
+      "text": "This is a test message 6"
+    }
+  ]
+}

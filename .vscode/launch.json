@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Dev",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/nodemon",
+            "program": "${workspaceFolder}/src/index.js",
+            "restart": true,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnFirstSessionStart",
+            "outputCapture": "std",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Live",
+            "program": "${workspaceFolder}/src/index.js",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnFirstSessionStart",
+            "outputCapture": "std",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
